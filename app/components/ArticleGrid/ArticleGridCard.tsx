@@ -11,7 +11,7 @@ interface ArticleGridCardProps {
 const ArticleGridCard = ({ article }: ArticleGridCardProps) => {
   return (
     <Link href={article.urlAlias}>
-      <article className="flex flex-col w-full mb-4">
+      <article className="flex flex-col w-full mb-4 cursor-pointer">
         <div className="relative w-full h-[200px] flex-shrink-0 overflow-hidden">
           <Image
             src={article.image}

@@ -10,14 +10,14 @@ interface FirstPostProps {
 const FirstPost = ({ title, label, image }: FirstPostProps) => {
   return (
     <div className="flex-1 w-full relative max-h-[500px] min-h-[408px]  overflow-hidden group">
-      {/* Overlay */}
       <Image
-        className="group-hover:scale-105 transition-all duration-300 ease-in-out object-cover "
+        className="group-hover:scale-105 transition-all duration-300 ease-in-out object-cover cursor-pointer"
         src={image}
         alt={title}
         fill
       />
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-30 cursor-pointer"></div>
       <div
         style={{
           borderLeft: "20px solid rgb(254, 151, 38)",
