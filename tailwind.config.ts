@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "375px",
+      },
+      colors: {
+        rtlgray: "#A8AAA",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
