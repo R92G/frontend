@@ -14,9 +14,7 @@ const ArticleGridCard = ({ article }: ArticleGridCardProps) => {
       <article className="flex flex-col w-full mb-4">
         <div className="relative w-full h-[200px] flex-shrink-0 overflow-hidden">
           <Image
-            src={
-              "https://redactie.rtl.nl/sites/default/files/content/images/2024/06/14/ANP-501051543.jpg?itok=xZS2yhzJ&offsetX=0&offsetY=27&cropWidth=1023&cropHeight=575&width=1024&height=576&impolicy=dynamic"
-            }
+            src={article.image}
             alt={article.title}
             layout="fill"
             className="absolute inset-0 object-cover hover:scale-105 transition-all duration-300 ease-in-out"

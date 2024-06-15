@@ -15,9 +15,7 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
         <div className="relative w-[160px] h-[90px] flex-shrink-0 overflow-hidden">
           {/* Hardcoded IMG - website is niet bereikbaar */}
           <Image
-            src={
-              "https://redactie.rtl.nl/sites/default/files/content/images/2024/06/14/Ali_B_Gordon.jpg?itok=oHDMNuIX&width=1024&height=576&impolicy=semi_dynamic"
-            }
+            src={article.image}
             alt={article.title}
             fill
             className="absolute inset-0 object-cover hover:scale-105 transition-all duration-300 ease-in-out"
