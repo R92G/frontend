@@ -29,7 +29,7 @@ const ArticleGridCard = ({ article }: ArticleGridCardProps) => {
           <p className="text-xs leading-tight text-gray-500 pt-4">
             {article.chapeau}
           </p>
-          <h2 className="font-bold text-[rgb(2,2,3)] mt-1 mb-1 text-lg leading-[1.2em]">
+          <h2 className="font-bold text-[rgb(2,2,3)] mt-1 mb-1 text-xl leading-tight">
             {article.title}
           </h2>
           <p className="text-xs leading-tight text-gray-500">

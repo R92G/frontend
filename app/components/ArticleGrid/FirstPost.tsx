@@ -17,7 +17,7 @@ const FirstPost = ({ title, label, image }: FirstPostProps) => {
         fill
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-30 cursor-pointer"></div>
+      <div className="absolute inset-0 bg-black opacity-40 cursor-pointer"></div>
       <div
         style={{
           borderLeft: "20px solid rgb(254, 151, 38)",
