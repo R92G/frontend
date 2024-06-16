@@ -13,7 +13,7 @@ This project was created by **Robin Gillessen** as part of an assignment for a f
 - **Tailwind CSS**: Used for rapid and responsive UI development.
 - **Unit Tests with Jest**: Comprehensive unit tests are written to ensure code reliability.
 - **SEO Optimized**: Ensuring the best practices for search engine optimization using the Metadata Object.
-- **Deployed on Vercel**: The project is live and accessible at [www.linkhier.nl](http://www.linkhier.nl).
+- **Deployed on Vercel**: The project is live and accessible [here](https://rtl-assignment-robin.vercel.app/).
 
 ## Technologies Used
 
