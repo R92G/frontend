@@ -8,7 +8,7 @@ This project was created by **Robin Gillessen** as part of an assignment for a f
 
 - **Fully responsive**: All the sections are responsive for mobile, tablet and desktop.
 - **Server Components**: Utilized for better performance and scalability.
-- **Reusable Components**:
+- **Reusable Components**: Where possible
 - **TypeScript**: Implemented for type safety and better code maintainability.
 - **Tailwind CSS**: Used for rapid and responsive UI development.
 - **Unit Tests with Jest**: Comprehensive unit tests are written to ensure code reliability.
@@ -20,7 +20,7 @@ This project was created by **Robin Gillessen** as part of an assignment for a f
 - **Next.js**: Framework for server-rendered React applications.
 - **TypeScript**: For type safety and code quality.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Jest & Testing Library**: For unit testing the components.
+- **Jest & Cypress Testing Library**: For unit & E2E testing the components.
 - **Vercel**: Deployment platform for the project.
 
 ## Getting Started
