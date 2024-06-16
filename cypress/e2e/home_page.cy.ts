@@ -1,3 +1,4 @@
+// @ts-nocheck
 describe("Home Page", () => {
   before(() => {
     cy.on("uncaught:exception", (err, runnable) => {
@@ -20,16 +21,13 @@ describe("Home Page", () => {
         expect(href).to.match(/https:\/\/www\.(rtl\.nl|rtlboulevard\.nl)/); // Verify the href attribute value
 
         if (href) {
-          const originUrl = new URL(href).origin;
+          const originUrl = new URL(href as any).origin;
 
           cy.origin(originUrl, { args: { href } }, ({ href }) => {
-            cy.visit(href); // Navigate to the URL within cy.origin to avoid cross-origin errors
-
-            // Verify that we have navigated to the correct URL
+            cy.visit(href);
             cy.url()
               .should("match", /https:\/\/www\.(rtl\.nl|rtlboulevard\.nl)/)
               .then(() => {
-                // Stop the test after successful navigation
                 Cypress.currentTest.retries(0);
               });
           });
