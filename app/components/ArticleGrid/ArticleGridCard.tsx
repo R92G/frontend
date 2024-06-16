@@ -10,13 +10,13 @@ interface ArticleGridCardProps {
 
 const ArticleGridCard = ({ article }: ArticleGridCardProps) => {
   return (
-    <Link href={article.urlAlias}>
+    <Link className="article-link" href={article.urlAlias}>
       <article className="flex flex-col w-full mb-4 cursor-pointer">
         <div className="relative w-full h-[200px] flex-shrink-0 overflow-hidden">
           <Image
             src={article.image}
             alt={article.title}
-            layout="fill"
+            fill
             className="absolute inset-0 object-cover hover:scale-105 transition-all duration-300 ease-in-out"
           />
           {article.showVideoIcon && (

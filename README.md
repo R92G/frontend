@@ -11,8 +11,8 @@ This project was created by **Robin Gillessen** as part of an assignment for a f
 - **Reusable Components**:
 - **TypeScript**: Implemented for type safety and better code maintainability.
 - **Tailwind CSS**: Used for rapid and responsive UI development.
-- **Unit Tests**: Comprehensive unit tests are written to ensure code reliability.
-- **SEO Optimized**: Ensuring the best practices for search engine optimization.
+- **Unit Tests with Jest**: Comprehensive unit tests are written to ensure code reliability.
+- **SEO Optimized**: Ensuring the best practices for search engine optimization using the Metadata Object.
 - **Deployed on Vercel**: The project is live and accessible at [www.linkhier.nl](http://www.linkhier.nl).
 
 ## Technologies Used
