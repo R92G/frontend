@@ -1,8 +1,7 @@
-# RTL Assignment - Freelance Front End Developer
 
 ## Overview
 
-This project was created by **Robin** as part of an assignment for a freelance front end developer position at RTL. The goal of this project is to showcase my development skills using modern technologies and best practices in front-end development.
+The goal of this project is to showcase my development skills using modern technologies and best practices in front-end development.
 
 ## Features
 
